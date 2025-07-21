@@ -1,3 +1,13 @@
+#root {
+  display: flex;
+  grid-gap: 8px;
+}
+
 #heading {
   color: #464646;
+}
+
+#parent > div {
+  display: flex;
+  grid-gap: 8px;
 }
