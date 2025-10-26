@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Aayush Pant.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayush-pant/namaste_react.git"
+  },
+  "keywords": [],
+  "author": "Aayush Pant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aayush-pant/namaste_react/issues"
+  },
+  "homepage": "https://github.com/aayush-pant/namaste_react#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
