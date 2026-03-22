@@ -2,14 +2,58 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 const parent = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child1", key: "1" }, [
-    React.createElement("h3", { key: "1" }, "Nagma:"),
-    React.createElement("h3", { key: "2" }, "Bhadwa saala randibaaz..🤬"),
-  ]),
-  React.createElement("div", { id: "child2", key: "2" }, [
-    React.createElement("h3", { key: "1" }, "Sardar:"),
-    React.createElement("h3", { key: "2" }, "Ee boli humko nagma hai..🧐"),
-  ]),
+  React.createElement(
+    "div",
+    {
+      id: "child1",
+      key: "1",
+      style: { display: "flex", alignItems: "center", margin: "0px" },
+    },
+    [
+      React.createElement(
+        "h3",
+        {
+          key: "1",
+          style: { display: "flex", alignItems: "center", margin: "4px" },
+        },
+        "Nagma:"
+      ),
+      React.createElement(
+        "h3",
+        {
+          key: "2",
+          style: { display: "flex", alignItems: "center", margin: "4px" },
+        },
+        "Bhadwa saala randibaaz..🤬"
+      ),
+    ]
+  ),
+  React.createElement(
+    "div",
+    {
+      id: "child2",
+      key: "2",
+      style: { display: "flex", alignItems: "center", margin: "0px" },
+    },
+    [
+      React.createElement(
+        "h3",
+        {
+          key: "1",
+          style: { display: "flex", alignItems: "center", margin: "4px" },
+        },
+        "Sardar:"
+      ),
+      React.createElement(
+        "h3",
+        {
+          key: "2",
+          style: { display: "flex", alignItems: "center", margin: "4px" },
+        },
+        "Ee boli humko nagma hai..🧐"
+      ),
+    ]
+  ),
 ]);
 
 console.log(parent, typeof parent); // React.createElement returns an object
